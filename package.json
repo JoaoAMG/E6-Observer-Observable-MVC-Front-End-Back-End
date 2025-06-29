@@ -1,0 +1,27 @@
+{
+  "name": "-e3-adapter-json-xml-main",
+  "version": "1.0.0",
+  "description": "Sabendo que o trabalho lida com objetos transacionais que encapsulam as transação frontend-backend, elaborar um Adapter para Adaptar a entrada JSON em XML no sistema. fazendo com que o backend interprete o XML e realize as operações.",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.13.4",
+    "@grpc/proto-loader": "^0.7.15",
+    "axios": "^1.10.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "react": "^19.1.0",
+    "rxjs": "^7.8.2",
+    "ws": "^8.18.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/ws": "^8.18.1"
+  }
+}
